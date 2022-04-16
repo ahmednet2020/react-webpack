@@ -1,0 +1,27 @@
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Peralta&family=Solway:wght@300&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/solid.css");
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/fontawesome.css");
+@import url("https://cdn.lineicons.com/3.0/lineicons.css");
+
+*,
+*::after,
+*::before
+{
+    outline: 0;
+	box-sizing: border-box;
+}
+
+body,html{
+    font-family: 'Dynalight', cursive;
+    font-family: 'Peralta', cursive;
+    font-family: 'Solway', serif;
+    font-size: 14px;
+    scroll-behavior: smooth;
+    @apply w-40;
+}
+template{
+    will-change: display, opacity, contents;
+}
